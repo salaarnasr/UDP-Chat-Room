@@ -1,2 +1,4 @@
 # UDP-Chat-Room
 A Python UDP implemented multi-client console based chatroom application
+
+Built a UDP-based multi-client chatroom application, consisting of separate server and client components. This system is designed to support the simultaneous connection of multiple clients, providing a platform for instantaneous message exchanges. Every message transmitted through the chatroom is annotated with the sender's name, ensuring clarity in communications. The application showcases a resilient design, with clients able to disconnect without impacting the overall chatroom stability, and the server possessing the capability for a clean and orderly shutdown. To enhance the user's situational awareness, the server broadcasts notifications regarding client join events. Similarly, all connected clients receive updates about new participants, ensuring all users are consistently informed of the chatroom's active members.
